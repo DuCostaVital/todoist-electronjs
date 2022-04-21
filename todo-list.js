@@ -1,5 +1,8 @@
-function adicionarItem () {
-  const valorInput = "Minha primeira tarefa";
+function adicionarItem (event) {
+
+  if (event && event.keycode !== 13) return;
+
+  const valorInput = document.getElementById("resultado").value
   
   //pegando a tag Ul do nosso HTMl pelo ID
   const minhatagUL = document.getElementById("lista-de-tarefas");
