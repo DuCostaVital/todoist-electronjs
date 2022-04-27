@@ -8,13 +8,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
 
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-
-  
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
 
     <title>Todo ist</title>
   </head>
@@ -27,20 +29,23 @@
     <!--Div com conteúdo de cadastrar atividade-->
     <div class="conteudo-atividade">
       <h2>O que vou fazer hoje?</h2>
-      <input id="oi" type="text" placeholder="Escreva sua atividade"
-      onkeypress="adicionarItemPelaTecla(event)" />
-      
+      <input
+        id="oi"
+        type="text"
+        placeholder="Escreva sua atividade"
+        onkeypress="adicionarItemPelaTecla(event)"
+      />
+
       <!--Botão de adicionar item-->
-      <button onclick="adicionarItem()"> 
-        <i class="fa-solid fa-plus"></i> Adicionar</button>
+      <button onclick="adicionarItem()">
+        <i class="fa-solid fa-plus"></i> Adicionar
+      </button>
     </div>
 
     <!--Lista de todois-->
-    <ul id="lista-de-tarefas">
-      <li></li>
-    </ul>
-  
+    <ul id="lista-de-tarefas"></ul>
+
     <!--Importando Script responsável pela lógica do todo-->
-  <script src="./todo-list.js"></script>
+    <script src="./todo-list.js"></script>
   </body>
 </html>

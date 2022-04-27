@@ -64,8 +64,17 @@ b {
   cursor: pointer;
 }
 
-.fas fa-minus-circle {
+.fa-minus-circle {
   color: red;
   margin-left: 10px;
-  cursor: pointer
+  cursor: pointer;
+}
+
+.concluida {
+  color: green;
+  margin-right: 10px;
+  text-decoration: line-through;
+}
+li{
+  cursor: pointer;
 }

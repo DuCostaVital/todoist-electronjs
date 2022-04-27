@@ -20,9 +20,11 @@ adicionarItem = () => {
 
   //Criando a tag LI com JavaScript
   const criarTagLI = document.createElement("li");
+  //adicionando um evento de click para tag <li>
+  criarTagLI.addEventListener("click", concluirTarefa);
 
   //Criando uma tag em negrito
-  const tagRemover = `<i  onclick='removerItem(event)' class="fas fa-minus-circle"></i>`;
+  const tagRemover = `<i  onclick='removerItem(event)' class=" fas fa-minus-circle"></i>`;
 
   //Adicionando um texto para nossa tag li criada
   criarTagLI.innerHTML = valorInput + tagRemover;
@@ -40,4 +42,10 @@ function removerItem(event) {
 
   // excluindo a tag <Li> com a função remove()
   minhaLi.remove();
+}
+function concluirTarefa(event) {
+  // pegando a tag <li> dentro do nosso event
+  const minhaTagLi = event.target;
+
+  minhaTagLi.className = "concluida";
 }
