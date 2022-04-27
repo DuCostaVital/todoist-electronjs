@@ -4,13 +4,17 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error : no test specified\" && exit 1"
+    
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "electron": "^18.0.4",
+    "electron-builder": "^23.0.3",
     "electron-reload": "^2.0.0-alpha.1"
   }
 }
