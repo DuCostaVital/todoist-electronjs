@@ -32,7 +32,7 @@
 #clonar repositório
 $ git clone https://github.com/DuCostaVital/todoist-electronjs
 
-# Entrar no repositório
+# Entrar no repositório local
 $ cd todoist-electronjs
 
 # instalar dependências
