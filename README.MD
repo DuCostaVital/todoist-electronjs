@@ -19,11 +19,11 @@
 </li>
 
 <li>
-<a ref="https://www.javascript.com/try">JavaScript</a>
+<a href="https://www.javascript.com/try">JavaScript</a>
 </li>
 
 <li>
-<a ref="https://developer.mozilla.org/pt-BR/docs/Web/CSS">css3 </a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">css3 </a>
 </li>
 
 <h3>Como rodar o projeto</h3>
